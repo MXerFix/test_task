@@ -1,0 +1,64 @@
+#scroll_in_page {
+  position: relative;
+}
+
+.sperm {
+  position: absolute;
+  top: 40px;
+  right: -100px;
+  scale: 0.75;
+  opacity: 0;
+  pointer-events: all;
+  animation: sperm_anim_reverse 1.5s ease-in-out;
+}
+
+.sperm_anim_class {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.sperm:nth-child(1) {
+  animation: sperm_anim_reverse 1.5s ease-in-out;
+}
+
+.sperm:nth-child(2) {
+  animation: sperm_anim_reverse 1.85s ease-in-out;
+}
+
+.sperm:nth-child(3) {
+  animation: sperm_anim_reverse 2.1s ease-in-out;
+}
+
+.sperm_anim_class:nth-child(1) {
+  animation: sperm_anim 1.5s ease-in-out;
+}
+.sperm_anim_class:nth-child(2) {
+  animation: sperm_anim 1.85s ease-in-out;
+}
+.sperm_anim_class:nth-child(3) {
+  animation: sperm_anim 2.1s ease-in-out;
+}
+
+@keyframes sperm_anim {
+  from {
+    opacity: 0;
+    transform: translate(100px, 100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes sperm_anim_reverse {
+  from {
+    opacity: 1;
+    transform: translate(0);
+  }
+
+  to {
+    opacity: 0;
+    transform: translate(100px, 100px);
+  }
+}

@@ -1,0 +1,22 @@
+
+.app {
+  height: 768px;
+  overflow-y: hidden;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+
+.watermark {
+  position: fixed;
+  width: 56px;
+  z-index: 4;
+  bottom: 20px;
+  left: 72px;
+}

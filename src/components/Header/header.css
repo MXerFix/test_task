@@ -1,0 +1,14 @@
+.header {
+  width: max-content;
+  height: max-content;
+  display: flex;
+  position: fixed;
+  z-index: 10;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 36px 48px;
+}
+
+.home_ic {
+  width: 20px;
+}

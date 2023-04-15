@@ -1,0 +1,147 @@
+.modal {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: all .3s;
+  pointer-events: none;
+}
+
+.modal.modal_active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.modal_content {
+  top: 36px;
+  left: 36px;
+  width: 82vw;
+  height: 80vh;
+  padding: 48px 0;
+  background-color: #fff;
+  border-radius: 32px;
+  position: relative;
+  transition: all .3s;
+}
+
+.modal_content.modal_active {
+  transform: scale(1);
+}
+
+.cross {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  scale: 0.75;
+  transform: rotate(45deg);
+  transition: all .2s;
+}
+
+.cross:active {
+  scale: 1.2;
+}
+
+.advantages_title {
+  margin-left: 116px;
+}
+
+.ul_list {
+  margin-top: 20px;
+  margin-left: 92px;
+  list-style: none;
+  opacity: 0;
+  position: absolute;
+  transition: all .3s;
+  padding-right: 96px;
+}
+
+.ul_list_active {
+  opacity: 1;
+  transition: all 1.2s;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+h4 {
+  color: #8cc9e8;
+  font-size: 28px;
+}
+
+p {
+  font-size: 24px;
+}
+
+.pagination {
+  margin-left: 92px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  position: absolute;
+  bottom: 24px;
+}
+
+button {
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow {
+  height: max-content;
+  width: max-content;
+  transition: all .2s;
+}
+
+.arrow:last-child {
+  margin-left: 12px;
+}
+
+.arrow_img {
+  width: 10px;
+  height: 20px;
+}
+
+.arrow:first-child .arrow_img {
+  transform: rotate(180deg);
+}
+
+.pagination_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 20px;
+  margin-left: 12px;
+}
+
+.pag {
+  width: 8px;
+  height: 8px;
+  border-radius: 1000px;
+  border: 1px #333 solid;
+  transition: all .5s;
+}
+
+.pag:last-child {
+  margin-left: 8px;
+}
+
+.pag_active {
+  border-color: #f572a3;
+  background-color: #f572a3;
+}
+
+.arrow:active {
+  scale: 1.3;
+}

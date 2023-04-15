@@ -1,0 +1,36 @@
+.page {
+  display: inline-block;
+  min-width: 1024px;
+  height: 768px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  scroll-snap-align: start;
+}
+
+.page:nth-child(1){
+  background-image: url(./img/bg-home.png);
+  z-index: 3;
+}
+
+.page:nth-child(2){
+  background-image: url(./img/bg-scroll.png);
+  z-index: 2;
+}
+
+.page:nth-child(3){
+  background-image: url(./img/bg-brand.png);
+  z-index: 1;
+}
+
+.in_page {
+  width: max-content;
+  margin-left: 48px;
+  padding-top: 160px;
+}
+
+#brendPage {
+  margin-left: 244px;
+}
+
+

@@ -1,0 +1,60 @@
+.brend_grid {
+  display: grid;
+  grid-template-areas: 
+    "a a b"
+    "a a b"
+    "a a b"
+    "a a c";
+  gap: 36px;
+  margin-top: 80px;
+}
+
+.brend_big {
+  position: relative;
+  grid-area: a;
+  max-width: 400px;
+  background-color: #fff;
+  border-radius: 32px;
+  padding: 30px;
+  padding-left: 92px;
+  box-shadow: 0 0 50px 1px rgba(100, 100, 100, .1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.brend_small {
+  position: relative;
+  grid-area: b;
+  max-width: 270px;
+  height: 160px;
+  background-color: #fff;
+  border-radius: 32px;
+  padding: 30px;
+  box-shadow: 0 0 50px 1px rgba(100, 100, 100, .1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.brend_btn {
+  grid-area: c;
+}
+
+.icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  top: -74px;
+  left: 64px;
+  scale: .6;
+}
+
+#snd_icon {
+  top: -64px;
+  left: 0;
+}

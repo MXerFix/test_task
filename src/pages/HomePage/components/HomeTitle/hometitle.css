@@ -1,0 +1,13 @@
+
+.mini_title {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 36px;
+  margin-left: 8px;
+}
+
+.big_title {
+  font-size: 112px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
