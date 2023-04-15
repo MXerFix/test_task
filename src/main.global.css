@@ -10,7 +10,6 @@
 }
 
 html {
-  /* width: 100%; */
   overflow-x:scroll;
   max-height: 768px;
 }
@@ -18,5 +17,4 @@ html {
 body {
   overflow-x:scroll;
   max-height: 768px;
-  /* width: 100%; */
 }

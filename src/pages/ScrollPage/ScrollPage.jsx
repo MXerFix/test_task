@@ -9,7 +9,6 @@ import sc_spemr_3 from '../img/scrollpg_sperm_3.png'
 
 export default function ScrollPage() {
 
-  const wrapper = document.querySelector('#wrapper')
 
   const [spermState, setSpermState] = useState(false);
   const sperm_anim_class = scroll_styles.sperm + ' ' + scroll_styles.sperm_anim_class

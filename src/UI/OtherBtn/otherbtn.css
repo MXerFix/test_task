@@ -1,5 +1,10 @@
 .button {
   position: relative;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  vertical-align: middle;
   width: fit-content;
   margin: 0;
   margin-left: 5px;
@@ -9,11 +14,6 @@
   background-color: #f572a3;
   border: none;
   border-radius: 64px;
-  display: inline-flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  vertical-align: middle;
   bottom: 10px;
   transition: all .2s;
 }
