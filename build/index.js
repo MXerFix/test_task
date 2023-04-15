@@ -22,7 +22,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\n  padding: 0;\n  margin: 0;\n  box-sizing: border-box;\n  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;\n  color: #333;\n}\n\nhtml {\n  /* width: 100%; */\n  overflow-x:scroll;\n  max-height: 768px;\n}\n\nbody {\n  overflow-x:scroll;\n  max-height: 768px;\n  /* width: 100%; */\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  padding: 0;\n  margin: 0;\n  box-sizing: border-box;\n  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;\n  color: #333;\n}\n\nhtml {\n  overflow-x:scroll;\n  max-height: 768px;\n}\n\nbody {\n  overflow-x:scroll;\n  max-height: 768px;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -77,7 +77,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".otherbtn__button--RtHHO {\n  position: relative;\n  width: fit-content;\n  margin: 0;\n  margin-left: 5px;\n  font-size: 28px;\n  font-weight: 300;\n  padding: 12px 24px 12px 18px;\n  background-color: #f572a3;\n  border: none;\n  border-radius: 64px;\n  display: inline-flex;\n  flex-direction: row;\n  justify-content: space-around;\n  align-items: center;\n  vertical-align: middle;\n  bottom: 10px;\n  transition: all .2s;\n}\n\n.otherbtn__button--RtHHO:active {\n  scale: 1.15;\n}\n\n.otherbtn__span--UuwxS {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 56px;\n  height: 56px;\n  vertical-align: middle;\n  background-color: #000;\n  color: #fff;\n  border-radius: 1000px;\n  margin-right: 16px;\n  box-shadow: rgba(0, 0, 0, 0.5) 0 -2px 6px,\n    rgba(255, 255, 255, 0.9) 0px 2px 6px, rgba(0, 0, 0, 0.8) 0 2px 6px -2px;\n}\n\n.otherbtn__btn_img--YjjFn {\n  height: 22px;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".otherbtn__button--RtHHO {\n  position: relative;\n  display: inline-flex;\n  flex-direction: row;\n  justify-content: space-around;\n  align-items: center;\n  vertical-align: middle;\n  width: fit-content;\n  margin: 0;\n  margin-left: 5px;\n  font-size: 28px;\n  font-weight: 300;\n  padding: 12px 24px 12px 18px;\n  background-color: #f572a3;\n  border: none;\n  border-radius: 64px;\n  bottom: 10px;\n  transition: all .2s;\n}\n\n.otherbtn__button--RtHHO:active {\n  scale: 1.15;\n}\n\n.otherbtn__span--UuwxS {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 56px;\n  height: 56px;\n  vertical-align: middle;\n  background-color: #000;\n  color: #fff;\n  border-radius: 1000px;\n  margin-right: 16px;\n  box-shadow: rgba(0, 0, 0, 0.5) 0 -2px 6px,\n    rgba(255, 255, 255, 0.9) 0px 2px 6px, rgba(0, 0, 0, 0.8) 0 2px 6px -2px;\n}\n\n.otherbtn__btn_img--YjjFn {\n  height: 22px;\n}\n", ""]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"button": "otherbtn__button--RtHHO",
@@ -30521,7 +30521,6 @@ var scrollpg_sperm_png_1 = __importDefault(__webpack_require__(/*! ../img/scroll
 var scrolling_sperm_2_png_1 = __importDefault(__webpack_require__(/*! ../img/scrolling_sperm_2.png */ "./src/pages/img/scrolling_sperm_2.png"));
 var scrollpg_sperm_3_png_1 = __importDefault(__webpack_require__(/*! ../img/scrollpg_sperm_3.png */ "./src/pages/img/scrollpg_sperm_3.png"));
 function ScrollPage() {
-    var wrapper = document.querySelector('#wrapper');
     var _a = (0, react_1.useState)(false), spermState = _a[0], setSpermState = _a[1];
     var sperm_anim_class = scrollpage_css_1.default.sperm + ' ' + scrollpage_css_1.default.sperm_anim_class;
     window.addEventListener("touchstart", function (e) {
